@@ -17,7 +17,7 @@ public class CalcView extends JFrame{
 	
 	public CalcView() {
 	
-		setTitle("MVC°è»ê±â");
+		setTitle("MVC");
 		
 		tf_su1 = new JTextField(5);
 		tf_su2 = new JTextField(5);
@@ -28,7 +28,7 @@ public class CalcView extends JFrame{
 		  cb_oper.addItem("*");
 		  cb_oper.addItem("/");
 		
-		bt_calc = new JButton("°è»ê");
+		bt_calc = new JButton("ë‚˜ ë²„íŠ¼");
 		
 		la_result = new JLabel();
 		
